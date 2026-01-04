@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #0f172a;
+  color: #e5e7eb;
+  line-height: 1.6;
+}
+
+/* Navbar */
+header {
+  background: #020617;
+  padding: 15px 40px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #38bdf8;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  color: #e5e7eb;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #38bdf8;
+}
+
+/* Home */
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 40px;
+  flex-wrap: wrap;
+}
+
+.home-content {
+  max-width: 600px;
+}
+
+.home h1 span {
+  color: #38bdf8;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.primary {
+  background: #38bdf8;
+  color: #020617;
+}
+
+.secondary {
+  border: 1px solid #38bdf8;
+  color: #38bdf8;
+}
+
+.home-image img {
+  width: 280px;
+  border-radius: 50%;
+  border: 4px solid #38bdf8;
+}
+
+/* Sections */
+.section {
+  padding: 70px 40px;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #38bdf8;
+}
+
+/* About */
+.about-text {
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+}
+
+.badge {
+  text-align: center;
+  margin-top: 20px;
+  background: #020617;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Skills */
+.skills-container {
+  max-width: 600px;
+  margin: auto;
+}
+
+.skill {
+  margin-bottom: 20px;
+}
+
+.progress {
+  background: #020617;
+  height: 10px;
+  border-radius: 5px;
+}
+
+.progress-bar {
+  height: 100%;
+  border-radius: 5px;
+  background: #38bdf8;
+}
+
+.html { width: 85%; }
+.css { width: 80%; }
+.js { width: 65%; }
+.design { width: 75%; }
+
+/* Services */
+.services-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.service-card {
+  background: #020617;
+  padding: 25px;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-card i {
+  font-size: 30px;
+  color: #38bdf8;
+  margin-bottom: 10px;
+}
+
+/* Portfolio */
+.portfolio-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.project-card {
+  background: #020617;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* Contact */
+.contact-container {
+  text-align: center;
+}
+
+.social-icons a {
+  color: #38bdf8;
+  margin: 0 10px;
+  font-size: 22px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #020617;
+}
